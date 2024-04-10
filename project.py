@@ -1,4 +1,4 @@
-level = int(input('Введите количество уровней пирамиды: '))
+level = int(input('Enter level of piramid: '))
 number = 1
 for row in range(1, level+1):
   print('\t' * (level - row), end = '')
